@@ -30,6 +30,19 @@ nav {
   background-color: #dad9db;
 }
 
+.restaurant.list h1 {
+  font-size: 1.5em;
+  font-weight:bold;
+  color: black;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+.restaurant-list h3 {
+  font-size: 1.3em;
+  color: black;
+  padding-left: 10px
+}
+
 .location {
 border-bottom: 1px solid black;
 }
@@ -39,19 +52,20 @@ border-bottom: 1px solid black;
 }
 
 .content {
-padding-top: 10px;
-padding-bottom: 10px;
-display: inline-block;
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .arrow-left {
-  float:left;
+padding-left: -5%
 }
 
 .arrow {
-  float:right;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  /*float:right;*/
+  display: inline-block;
+  width: 2%;
+  margin-left:70%
 }
 
 h1 {
@@ -66,5 +80,4 @@ h3 {
   font-size: 1.3em;
   color: black;
   padding-left: 10px
-
 }
