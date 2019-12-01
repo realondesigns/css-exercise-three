@@ -9,63 +9,22 @@ body {
 }
 
 .container {
-  margin: 10px auto;
-  width: 70%;
+  margin: 0 auto;
+  width: 420px;
 }
 
 nav {
   margin: 0 auto;
-  padding: 15px 0px 10px 15px;
+  padding: 15px 0px 10px 10px;
   position: fixed;
-  width: 70%;
+  width: 55%;
   background-color: black;
 }
 
 .restaurant-list {
   padding-top: 45px;
-  padding-left: 0px;
-  padding-bottom: 10px;
-  padding-right: 0px;
   width: 100%;
   background-color: #dad9db;
-}
-
-.restaurant.list h1 {
-  font-size: 1.5em;
-  font-weight:bold;
-  color: black;
-  padding-bottom: 5px;
-  padding-left: 10px;
-}
-.restaurant-list h3 {
-  font-size: 1.3em;
-  color: black;
-  padding-left: 10px
-}
-
-.location {
-border-bottom: 1px solid black;
-}
-
-.location:hover {
-  background-color: #696969;
-}
-
-.content {
-  display: inline-block;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.arrow-left {
-padding-left: -5%
-}
-
-.arrow {
-  /*float:right;*/
-  display: inline-block;
-  width: 2%;
-  margin-left:70%
 }
 
 h1 {
@@ -80,4 +39,45 @@ h3 {
   font-size: 1.3em;
   color: black;
   padding-left: 10px
+}
+
+.restaurant.list h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: black;
+  padding-left: 10px;
+}
+
+.restaurant-list h3 {
+  font-size: 1.3em;
+  color: black;
+  padding-left: 10px
+}
+
+.location {
+  width: 100%;
+  border-bottom: 1px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.location:hover {
+  width: 100%;
+  background-color: #696969;
+}
+
+.content {
+  display: inline-block;
+  width: 93%;
+
+}
+
+.arrow-left {
+padding-left: -2%
+}
+
+.arrow {
+  /*float:right;*/
+  display: inline-block;
+  width: 1%;
 }
