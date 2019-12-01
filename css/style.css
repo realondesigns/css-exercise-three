@@ -17,7 +17,7 @@ nav {
   margin: 0 auto;
   padding: 15px 0px 10px 10px;
   position: fixed;
-  width: 55%;
+  width: 420px;
   background-color: black;
 }
 
@@ -80,4 +80,5 @@ padding-left: -2%
   /*float:right;*/
   display: inline-block;
   width: 1%;
+  vertical-align:super;
 }
